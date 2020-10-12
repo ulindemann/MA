@@ -1,0 +1,162 @@
+PS C:\WINDOWS\system32> Get-ADUser -Identity Lindemann -Properties *
+
+
+AccountExpirationDate                : 01.08.2021 00:00:00
+accountExpires                       : 132722424000000000
+AccountLockoutTime                   :
+AccountNotDelegated                  : False
+AllowReversiblePasswordEncryption    : False
+AuthenticationPolicy                 : {}
+AuthenticationPolicySilo             : {}
+BadLogonCount                        : 0
+badPasswordTime                      : 132356532274551790
+badPwdCount                          : 0
+c                                    : DE
+CannotChangePassword                 : False
+CanonicalName                        : lwnet.local/FSD/Personal/IT/Lindemann, Udo
+Certificates                         : {}
+City                                 : Berlin
+CN                                   : Lindemann, Udo
+co                                   : Deutschland
+codePage                             : 0
+Company                              : FSD Lwerk gGmbH Berlin Brandenburg
+CompoundIdentitySupported            : {False}
+Country                              : DE
+countryCode                          : 276
+Created                              : 13.01.2020 10:15:34
+createTimeStamp                      : 13.01.2020 10:15:34
+Deleted                              :
+Department                           : IT Abteilung
+Description                          : Sachbearbeiter IT 16i
+DisplayName                          : Lindemann, Udo
+DistinguishedName                    : CN=Lindemann\, Udo,OU=IT,OU=Personal,OU=FSD,DC=lwnet,DC=local
+Division                             :
+DoesNotRequirePreAuth                : False
+dSCorePropagationData                : {14.02.2020 15:29:47, 01.01.1601 01:00:01}
+EmailAddress                         : Lindemann@lwnet.de
+EmployeeID                           :
+EmployeeNumber                       :
+Enabled                              : True
+Fax                                  :
+GivenName                            : Udo
+HomeDirectory                        :
+HomedirRequired                      : False
+HomeDrive                            :
+homeMDB                              : CN=Mailbox Database,CN=Databases,CN=Exchange Administrative Group
+                                       (FYDIBOHF23SPDLT),CN=Administrative
+                                       Groups,CN=Lankwitzer-Werkstaetten,CN=Microsoft
+                                       Exchange,CN=Services,CN=Configuration,DC=lwnet,DC=local
+homeMTA                              : CN=Microsoft MTA,CN=LWES002,CN=Servers,CN=Exchange Administrative Group
+                                       (FYDIBOHF23SPDLT),CN=Administrative
+                                       Groups,CN=Lankwitzer-Werkstaetten,CN=Microsoft
+                                       Exchange,CN=Services,CN=Configuration,DC=lwnet,DC=local
+HomePage                             :
+HomePhone                            :
+Initials                             :
+instanceType                         : 4
+isDeleted                            :
+KerberosEncryptionType               : {None}
+l                                    : Berlin
+LastBadPasswordAttempt               : 03.06.2020 12:20:27
+LastKnownParent                      :
+lastLogon                            : 132373677891125472
+LastLogonDate                        : 22.06.2020 08:33:04
+lastLogonTimestamp                   : 132372811845388414
+legacyExchangeDN                     : /o=Lankwitzer-Werkstaetten/ou=Exchange Administrative Group
+                                       (FYDIBOHF23SPDLT)/cn=Recipients/cn=Lindemann, Udof2a
+LockedOut                            : False
+logonCount                           : 501
+LogonWorkstations                    :
+mail                                 : Lindemann@lwnet.de
+mailNickname                         : Lindemann
+Manager                              : CN=Schoetzke\,
+                                       Sebastian,OU=IT_Personal,OU=IT,OU=Personal,OU=FSD,DC=lwnet,DC=local
+mDBUseDefaults                       : True
+MemberOf                             : {CN=GL_TListe,OU=Telefonliste,OU=Intranet,OU=Gruppen,OU=FSD,DC=lwnet,DC=local,
+                                       CN=GL_102_AN,OU=IT_102_AN,OU=IT,OU=Gruppen,OU=FSD,DC=lwnet,DC=local, CN=GL_1000_
+                                       alle_AN_Lwerk,OU=Angestellte_Lwerk,OU=Gruppen,OU=FSD,DC=lwnet,DC=local,
+                                       CN=GL_IT_Transfer_WSDialog,OU=IT
+                                       Transfer,OU=T_Laufwerk_Transfer,OU=Gruppen,OU=FSD,DC=lwnet,DC=local...}
+MNSLogonAccount                      : False
+MobilePhone                          :
+Modified                             : 23.06.2020 14:44:51
+modifyTimeStamp                      : 23.06.2020 14:44:51
+msDS-SupportedEncryptionTypes        : 0
+msDS-User-Account-Control-Computed   : 0
+msExchDelegateListBL                 : {CN=it@lwnet.de,OU=Postfaecher,OU=FSD,DC=lwnet,DC=local}
+msExchHomeServerName                 : /o=Lankwitzer-Werkstaetten/ou=Exchange Administrative Group
+                                       (FYDIBOHF23SPDLT)/cn=Configuration/cn=Servers/cn=LWES002
+msExchMailboxGuid                    : {167, 125, 87, 52...}
+msExchMailboxSecurityDescriptor      : System.DirectoryServices.ActiveDirectorySecurity
+msExchPoliciesIncluded               : {18d976b6-96d3-4f73-9f24-74b51d07a2ac, {26491cfc-9e50-4857-861b-0cb8df22b5d7}}
+msExchRBACPolicyLink                 : CN=Default Role Assignment
+                                       Policy,CN=Policies,CN=RBAC,CN=Lankwitzer-Werkstaetten,CN=Microsoft
+                                       Exchange,CN=Services,CN=Configuration,DC=lwnet,DC=local
+msExchRecipientDisplayType           : 1073741824
+msExchRecipientTypeDetails           : 1
+msExchTextMessagingState             : {302120705, 16842751}
+msExchUMDtmfMap                      : {emailAddress:546336266, lastNameFirstName:546336266836,
+                                       firstNameLastName:836546336266}
+msExchUserAccountControl             : 0
+msExchUserCulture                    : de-DE
+msExchVersion                        : 44220983382016
+msExchWhenMailboxCreated             : 13.01.2020 15:07:51
+msTSExpireDate                       : 12.05.2020 16:12:04
+msTSLicenseVersion                   : 393218
+msTSLicenseVersion2                  : 7
+msTSLicenseVersion3                  : C50-6.02-S
+msTSManagingLS                       : 00252-60270-44764-AT951
+Name                                 : Lindemann, Udo
+nTSecurityDescriptor                 : System.DirectoryServices.ActiveDirectorySecurity
+ObjectCategory                       : CN=Person,CN=Schema,CN=Configuration,DC=lwnet,DC=local
+ObjectClass                          : user
+ObjectGUID                           : 427f1c71-2cb8-46c7-9a1f-d5ae755097f0
+objectSid                            : S-1-5-21-1644491937-515967899-725345543-16606
+Office                               :
+OfficePhone                          :
+Organization                         :
+OtherName                            :
+PasswordExpired                      : False
+PasswordLastSet                      : 09.04.2020 13:37:48
+PasswordNeverExpires                 : True
+PasswordNotRequired                  : False
+POBox                                :
+PostalCode                           : 12249
+PrimaryGroup                         : CN=Domänen-Benutzer,CN=Users,DC=lwnet,DC=local
+primaryGroupID                       : 513
+PrincipalsAllowedToDelegateToAccount : {}
+ProfilePath                          :
+ProtectedFromAccidentalDeletion      : False
+proxyAddresses                       : {SMTP:Lindemann@lwnet.de}
+pwdLastSet                           : 132309058685576871
+SamAccountName                       : Lindemann
+sAMAccountType                       : 805306368
+ScriptPath                           :
+sDRightsEffective                    : 15
+ServicePrincipalNames                : {}
+showInAddressBook                    : {CN=Alle Benutzer,CN=All Address Lists,CN=Address Lists
+                                       Container,CN=Lankwitzer-Werkstaetten,CN=Microsoft
+                                       Exchange,CN=Services,CN=Configuration,DC=lwnet,DC=local, CN=Globale
+                                       Standardadressliste,CN=All Global Address Lists,CN=Address Lists
+                                       Container,CN=Lankwitzer-Werkstaetten,CN=Microsoft
+                                       Exchange,CN=Services,CN=Configuration,DC=lwnet,DC=local}
+SID                                  : S-1-5-21-1644491937-515967899-725345543-16606
+SIDHistory                           : {}
+SmartcardLogonRequired               : False
+sn                                   : Lindemann
+st                                   : NBerlin
+State                                : NBerlin
+StreetAddress                        : Kamenzer Damm 1 Haus A
+Surname                              : Lindemann
+Title                                : Sachbearbeitung IT
+TrustedForDelegation                 : False
+TrustedToAuthForDelegation           : False
+UseDESKeyOnly                        : False
+userAccountControl                   : 66048
+userCertificate                      : {}
+UserPrincipalName                    : Lindemann@lwnet.de
+uSNChanged                           : 3546689
+uSNCreated                           : 31245
+whenChanged                          : 23.06.2020 14:44:51
+whenCreated                          : 13.01.2020 10:15:34
+

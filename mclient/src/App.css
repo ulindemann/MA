@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #373940;
+  padding-top: 90px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.App {
+  text-align: left;
+  background-color: #ff00FF;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 1s linear;
+  }
+}
+
+.App-header {
+  background-color: #a7abe0fb;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-body {
+  background-color: #61dafb;
+  min-height: 90vh;
+  max-height: 90vh;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.DirListe {
+  max-height: 80px;
+}
+
+.row-left {
+  max-height: 500px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.c-eigen-1 {
+  color: #ffffff; 
+} 
+
+.c-filedisplay {
+  background-color: #aaaaff;
+  color: #001133;
+  margin: 20px;
+  padding: 10px;
+  text-align: left;
+}
+.verzeichnisliste {
+  background-color: #77FFAA;
+}
+
+.eigen-test-form {
+  color: #FF3FFF;
+  background-color: #000000;
+}
+
+liste-eigen {
+   maxHeight: 200px;
+}
+
+.liste-links {
+  max-height: 80vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+
+.app-total {
+  background-color: #4264a8;
+  height: 90vh;
+}
+
+.total-container {
+  height: 96vh;
+  /* background-color: #001133; */
+  background-color: #ffffff;
+  overflow: hidden;
+}

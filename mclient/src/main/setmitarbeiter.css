@@ -1,0 +1,12 @@
+.ma-card {
+    background-color: #ebd0d0;
+    padding: 20px;
+    max-height: 180px;
+    overflow: visible;
+  }
+
+.dropdown {
+  background-color: #ffffff;
+  overflow: visible;
+}  
+  

@@ -1,0 +1,56 @@
+.verzeichniscard {
+    /*background-color: #a0d4e0;*/
+    min-height: 65vh;
+    max-height: 65vh;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #315481;
+    background-image: linear-gradient(to bottom, #315481, #918e82 100%);
+}
+
+.c-dateiliste {
+    min-height: 50vh;
+    overflow: auto;
+  }
+
+  .verzeichnistable{
+      width: 300px;
+      table-layout: fixed;
+      border-collapse: collapse;
+  }
+
+  .verzeichnistable tbody {
+      display: block;
+      background-color: #ffffff;
+      height: 300px;
+      overflow: auto;
+      width: 80vh;
+  }
+
+  .verzeichnistable thead tr {
+      display: block; 
+      background-color: #dddddd;
+      width: 80vh;
+  }
+
+  .verzeichnistable thead {
+    background-color: #234567;
+    color: #ffaafe;
+    width: 10vh;
+  }
+
+  .verzeichnistable th, .verzeichnistable td {
+    padding: 5px;
+    text-align: left;
+    width: 200px;
+  }
+
+  
+  /*
+  #no-verzeichnis-data {
+      height: 300px;
+      color: #770000;
+      display: inline-flex;
+      text-align: center;
+  }
+  */
