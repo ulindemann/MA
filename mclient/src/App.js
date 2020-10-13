@@ -15,44 +15,37 @@ import TestVerzeichnis from './test/verzeichnis';
 import {Navi, Footi} from "./nav"; 
 import LoginDialog from './logindialog';
 
-export const UserContext = React.createContext({name: 'lindemann', passwort: ''});
+export const UserContext = React.createContext(null);
+export const ErrorContext = React.createContext(null);
 
 //===========================================================================
 // the One and Only App
 //
 const App = () => {
-
-  
+ 
   const [login, setLogin] = useState (false);
+  const [ User, setUser] = useState ( "lindemann");
 
-  if ( login === true ){
   return (
     <div className="app-total">
-      
-      <Router>
-      <UserContext.Provider value={{name: 'lindemann', passwort: ''}}>
-      <Navi /> 
-      </UserContext.Provider>
-      <Switch>
-        <Route path="/" component={Home} exact />
-        <Route path="/home" component={Home} />
-        <Route path="/admin" component={Admin} />
-        <Route path="/test" component={Testi} />
-        <Route path="/dir" component={TestVerzeichnis} />
-        <Route path="/search" component={Suchen} />
-      </Switch>
+       <UserContext.Provider value={{name: 'lindemann', passwort: ''}}>
+        <ErrorContext.Provider value={{Error, setError}}>
+        <Router>
+        <Navi /> 
+          <Switch>
+            <Route path="/" component={Home} exact />
+            <Route path="/home" component={Home} />
+            <Route path="/admin" component={Admin} />
+            <Route path="/test" component={Testi} />
+            <Route path="/dir" component={TestVerzeichnis} />
+            <Route path="/search" component={Suchen} />
+          </Switch>
       </Router>
       <Footi />
+      </ErrorContext.Provider>  
+      </UserContext.Provider>
     </div>
   );
-  }else{
-    return (
-      <UserContext.Provider>
-      <LoginDialog />
-      {setLogin (true)}
-      </UserContext.Provider>
-    );
-  }
 }
 
 //<Route path="/" component={Home} exact />
